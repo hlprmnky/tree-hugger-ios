@@ -1,0 +1,6 @@
+framework module Pods_TreeHuggerMichiana {
+  umbrella header "Pods-TreeHuggerMichiana-umbrella.h"
+
+  export *
+  module * { export * }
+}

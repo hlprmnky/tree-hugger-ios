@@ -1,0 +1,13 @@
+PODS:
+  - Alamofire (1.2.2)
+  - SwiftHamcrest (0.2)
+
+DEPENDENCIES:
+  - Alamofire
+  - SwiftHamcrest
+
+SPEC CHECKSUMS:
+  Alamofire: 11a6022f5089887d92ffb5a3014c97a0a915ab98
+  SwiftHamcrest: 84a296889d637ed0eb999e8009cd2b5a7f40d932
+
+COCOAPODS: 0.37.0

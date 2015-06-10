@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		268D3337C75B2A42F8B75A75 /* Pods_TreeHuggerMichianaTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F8734EB41682AD48D7F3E7A3 /* Pods_TreeHuggerMichianaTests.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		834BDD141B09017C004E2DDA /* TreeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 834BDD131B09017C004E2DDA /* TreeModel.swift */; };
+		834BDD151B09017C004E2DDA /* TreeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 834BDD131B09017C004E2DDA /* TreeModel.swift */; };
 		83E5F8601B06DD5900FB13EB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83E5F85F1B06DD5900FB13EB /* AppDelegate.swift */; };
 		83E5F8621B06DD5900FB13EB /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83E5F8611B06DD5900FB13EB /* FirstViewController.swift */; };
 		83E5F8641B06DD5900FB13EB /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83E5F8631B06DD5900FB13EB /* SecondViewController.swift */; };
@@ -16,6 +19,10 @@
 		83E5F8781B06DD5900FB13EB /* TreeHuggerMichianaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83E5F8771B06DD5900FB13EB /* TreeHuggerMichianaTests.swift */; };
 		83E5F8821B06DD6400FB13EB /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 83E5F8811B06DD6400FB13EB /* MapKit.framework */; };
 		83E5F8841B06DDB900FB13EB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 83E5F8831B06DDB900FB13EB /* Foundation.framework */; };
+		83E5F88B1B08ED3B00FB13EB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83E5F85F1B06DD5900FB13EB /* AppDelegate.swift */; };
+		83E5F88C1B08ED3B00FB13EB /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83E5F8611B06DD5900FB13EB /* FirstViewController.swift */; };
+		83E5F88D1B08ED3B00FB13EB /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83E5F8631B06DD5900FB13EB /* SecondViewController.swift */; };
+		A8B9BC37DF667D6F51FDE8CA /* Pods_TreeHuggerMichiana.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F1495233505880B38A273DD /* Pods_TreeHuggerMichiana.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,10 +36,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0F1495233505880B38A273DD /* Pods_TreeHuggerMichiana.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TreeHuggerMichiana.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		39F52B50F55404C146CDEE9E /* Pods-TreeHuggerMichianaTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TreeHuggerMichianaTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TreeHuggerMichianaTests/Pods-TreeHuggerMichianaTests.debug.xcconfig"; sourceTree = "<group>"; };
+		834BDD131B09017C004E2DDA /* TreeModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TreeModel.swift; sourceTree = "<group>"; };
 		83E5F85A1B06DD5900FB13EB /* TreeHuggerMichiana.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TreeHuggerMichiana.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		83E5F85E1B06DD5900FB13EB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		83E5F85F1B06DD5900FB13EB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		83E5F8611B06DD5900FB13EB /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
+		83E5F8611B06DD5900FB13EB /* FirstViewController.swift */ = {isa = PBXFileReference; indentWidth = 4; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; tabWidth = 4; };
 		83E5F8631B06DD5900FB13EB /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 		83E5F8661B06DD5900FB13EB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		83E5F8681B06DD5900FB13EB /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
@@ -42,6 +52,10 @@
 		83E5F8771B06DD5900FB13EB /* TreeHuggerMichianaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TreeHuggerMichianaTests.swift; sourceTree = "<group>"; };
 		83E5F8811B06DD6400FB13EB /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 		83E5F8831B06DDB900FB13EB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		AB6232D2F16603C46383E84F /* Pods-TreeHuggerMichianaTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TreeHuggerMichianaTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-TreeHuggerMichianaTests/Pods-TreeHuggerMichianaTests.release.xcconfig"; sourceTree = "<group>"; };
+		AC2CA47E38AD01106AC1CEE0 /* Pods-TreeHuggerMichiana.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TreeHuggerMichiana.release.xcconfig"; path = "Pods/Target Support Files/Pods-TreeHuggerMichiana/Pods-TreeHuggerMichiana.release.xcconfig"; sourceTree = "<group>"; };
+		CFD49029DC90305DDDED1E13 /* Pods-TreeHuggerMichiana.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TreeHuggerMichiana.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TreeHuggerMichiana/Pods-TreeHuggerMichiana.debug.xcconfig"; sourceTree = "<group>"; };
+		F8734EB41682AD48D7F3E7A3 /* Pods_TreeHuggerMichianaTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TreeHuggerMichianaTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +65,7 @@
 			files = (
 				83E5F8841B06DDB900FB13EB /* Foundation.framework in Frameworks */,
 				83E5F8821B06DD6400FB13EB /* MapKit.framework in Frameworks */,
+				A8B9BC37DF667D6F51FDE8CA /* Pods_TreeHuggerMichiana.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -58,12 +73,33 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				268D3337C75B2A42F8B75A75 /* Pods_TreeHuggerMichianaTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1C538D61649B5F8E08DBA907 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0F1495233505880B38A273DD /* Pods_TreeHuggerMichiana.framework */,
+				F8734EB41682AD48D7F3E7A3 /* Pods_TreeHuggerMichianaTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		241536BB7227FE680A6688A6 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CFD49029DC90305DDDED1E13 /* Pods-TreeHuggerMichiana.debug.xcconfig */,
+				AC2CA47E38AD01106AC1CEE0 /* Pods-TreeHuggerMichiana.release.xcconfig */,
+				39F52B50F55404C146CDEE9E /* Pods-TreeHuggerMichianaTests.debug.xcconfig */,
+				AB6232D2F16603C46383E84F /* Pods-TreeHuggerMichianaTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		83E5F8511B06DD5900FB13EB = {
 			isa = PBXGroup;
 			children = (
@@ -72,6 +108,8 @@
 				83E5F85C1B06DD5900FB13EB /* TreeHuggerMichiana */,
 				83E5F8741B06DD5900FB13EB /* TreeHuggerMichianaTests */,
 				83E5F85B1B06DD5900FB13EB /* Products */,
+				241536BB7227FE680A6688A6 /* Pods */,
+				1C538D61649B5F8E08DBA907 /* Frameworks */,
 			);
 			indentWidth = 2;
 			sourceTree = "<group>";
@@ -89,6 +127,7 @@
 		83E5F85C1B06DD5900FB13EB /* TreeHuggerMichiana */ = {
 			isa = PBXGroup;
 			children = (
+				83E5F8851B07973B00FB13EB /* Model */,
 				83E5F85F1B06DD5900FB13EB /* AppDelegate.swift */,
 				83E5F8611B06DD5900FB13EB /* FirstViewController.swift */,
 				83E5F8631B06DD5900FB13EB /* SecondViewController.swift */,
@@ -125,6 +164,14 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		83E5F8851B07973B00FB13EB /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				834BDD131B09017C004E2DDA /* TreeModel.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +179,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 83E5F87B1B06DD5900FB13EB /* Build configuration list for PBXNativeTarget "TreeHuggerMichiana" */;
 			buildPhases = (
+				8BCED2EC081EB8DFFD87B6A4 /* Check Pods Manifest.lock */,
 				83E5F8561B06DD5900FB13EB /* Sources */,
 				83E5F8571B06DD5900FB13EB /* Frameworks */,
 				83E5F8581B06DD5900FB13EB /* Resources */,
+				9A060A3E0DE9BD6A50CDD4B7 /* Embed Pods Frameworks */,
+				D4869C0E0F3453FDFC817501 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -149,9 +199,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 83E5F87E1B06DD5900FB13EB /* Build configuration list for PBXNativeTarget "TreeHuggerMichianaTests" */;
 			buildPhases = (
+				3D48C589EEB27C70D040B439 /* Check Pods Manifest.lock */,
 				83E5F86D1B06DD5900FB13EB /* Sources */,
 				83E5F86E1B06DD5900FB13EB /* Frameworks */,
 				83E5F86F1B06DD5900FB13EB /* Resources */,
+				E636E2A81EFD06C3BF3723FD /* Embed Pods Frameworks */,
+				53247B01750CC85321C89643 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -170,7 +223,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 0630;
-				ORGANIZATIONNAME = "Chris Johnson Bidler";
+				ORGANIZATIONNAME = "Helper Monkey Software LLC";
 				TargetAttributes = {
 					83E5F8591B06DD5900FB13EB = {
 						CreatedOnToolsVersion = 6.3.1;
@@ -226,6 +279,99 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		3D48C589EEB27C70D040B439 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		53247B01750CC85321C89643 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TreeHuggerMichianaTests/Pods-TreeHuggerMichianaTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8BCED2EC081EB8DFFD87B6A4 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		9A060A3E0DE9BD6A50CDD4B7 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TreeHuggerMichiana/Pods-TreeHuggerMichiana-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D4869C0E0F3453FDFC817501 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TreeHuggerMichiana/Pods-TreeHuggerMichiana-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E636E2A81EFD06C3BF3723FD /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TreeHuggerMichianaTests/Pods-TreeHuggerMichianaTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		83E5F8561B06DD5900FB13EB /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -234,6 +380,7 @@
 				83E5F8641B06DD5900FB13EB /* SecondViewController.swift in Sources */,
 				83E5F8601B06DD5900FB13EB /* AppDelegate.swift in Sources */,
 				83E5F8621B06DD5900FB13EB /* FirstViewController.swift in Sources */,
+				834BDD141B09017C004E2DDA /* TreeModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -241,7 +388,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				83E5F88B1B08ED3B00FB13EB /* AppDelegate.swift in Sources */,
 				83E5F8781B06DD5900FB13EB /* TreeHuggerMichianaTests.swift in Sources */,
+				83E5F88D1B08ED3B00FB13EB /* SecondViewController.swift in Sources */,
+				83E5F88C1B08ED3B00FB13EB /* FirstViewController.swift in Sources */,
+				834BDD151B09017C004E2DDA /* TreeModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -360,6 +511,7 @@
 		};
 		83E5F87C1B06DD5900FB13EB /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CFD49029DC90305DDDED1E13 /* Pods-TreeHuggerMichiana.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
@@ -371,6 +523,7 @@
 		};
 		83E5F87D1B06DD5900FB13EB /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AC2CA47E38AD01106AC1CEE0 /* Pods-TreeHuggerMichiana.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
@@ -382,6 +535,7 @@
 		};
 		83E5F87F1B06DD5900FB13EB /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 39F52B50F55404C146CDEE9E /* Pods-TreeHuggerMichianaTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				FRAMEWORK_SEARCH_PATHS = (
@@ -401,6 +555,7 @@
 		};
 		83E5F8801B06DD5900FB13EB /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AB6232D2F16603C46383E84F /* Pods-TreeHuggerMichianaTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				FRAMEWORK_SEARCH_PATHS = (
@@ -433,6 +588,7 @@
 				83E5F87D1B06DD5900FB13EB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		83E5F87E1B06DD5900FB13EB /* Build configuration list for PBXNativeTarget "TreeHuggerMichianaTests" */ = {
 			isa = XCConfigurationList;
@@ -441,6 +597,7 @@
 				83E5F8801B06DD5900FB13EB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
